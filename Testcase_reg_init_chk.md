@@ -3,13 +3,13 @@ task run_test();
     reg [31:0]  read_data;
     begin
   	    
-            $display("====================================");	
+		$display("====================================");	
   	    $display("==== reg_init_chk ===");
   	    $display("====================================");	
         
-            	$display("------- TCR -------"); 
-            	test_bench.apb_read_register(12'h000, read_data);
-	    	test_bench.check_result(32'h0000_0100, read_data);
+		$display("------- TCR -------"); 
+		test_bench.apb_read_register(12'h000, read_data);
+		test_bench.check_result(32'h0000_0100, read_data);
 
 
 		$display("------- TDR0 -------");
