@@ -1,6 +1,7 @@
 
+````verilog
 task run_test();
-    	reg [31:0] read_data;
+	reg [31:0] read_data;
 	integer i;
     begin
   	    
