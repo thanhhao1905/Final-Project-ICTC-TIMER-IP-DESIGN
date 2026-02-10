@@ -1,9 +1,26 @@
 <img width="2000" height="2825" alt="image" src="https://github.com/user-attachments/assets/4dad40a3-668b-4228-ad25-48fd21f549c4" />
 <img width="2000" height="2825" alt="image" src="https://github.com/user-attachments/assets/c04cbfd1-fc98-4629-bc3e-cb5ecc505363" />
 <img width="2000" height="2825" alt="image" src="https://github.com/user-attachments/assets/d420c69e-16d4-4fc7-8794-9fd85ac0a035" />
-<img width="2000" height="2825" alt="image" src="https://github.com/user-attachments/assets/99eaf500-faa3-405f-a801-d79a14b101cc" />
+
+# 64-bit Timer Counter
+
+In modern digital systems, timers and counters are fundamental components that play a crucial role in time measurement, event scheduling, and system synchronization. The **64-bit Timer Counter** presented in this project is a versatile and robust hardware module designed to provide precise timing functionality in embedded systems, System-on-Chip (SoC) designs, and microcontroller applications.
+
+This timer module implements a high-resolution 64-bit counter capable of operating in multiple modes, offering both free-running and periodic counting capabilities. With its configurable prescaler, the timer can adapt to various timing requirements, from high-frequency operations to long-duration measurements. The module incorporates an **Advanced Peripheral Bus (APB)** interface, making it compatible with industry-standard ARM-based systems and easily integrable into complex digital designs.
+
+### Key Features
+The timer's architecture includes essential features such as:
+
+* **64-bit counter** with programmable compare value for interrupt generation.
+* **Multiple operating modes** (free-running and periodic).
+* **Programmable prescaler** for clock division (1-256).
+* **Debug-mode support** with halt capability.
+* **APB 3.0 compliant interface** for easy system integration.
+* **Configurable interrupt mechanism** with enable/disable control.
+
 <img width="1680" height="767" alt="image" src="https://github.com/user-attachments/assets/ab5068f7-35fb-41b5-8e3e-a9c86a1702c2" />
 <img width="1910" height="780" alt="image" src="https://github.com/user-attachments/assets/6bc611f3-9217-4415-a13b-9835057c986b" />
+
 <img width="1340" height="697" alt="image" src="https://github.com/user-attachments/assets/f73a9b29-eded-4d7b-9fcc-26fa600726e7" />
 <img width="1372" height="299" alt="image" src="https://github.com/user-attachments/assets/23be6eea-33ab-42de-afb3-80b54b7ad426" />
 
