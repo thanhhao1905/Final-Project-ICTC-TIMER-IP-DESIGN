@@ -1,4 +1,3 @@
-````verilog
 task run_test();
    	reg [31:0] read_data;
 	reg [63:0] data_before, data_after;
